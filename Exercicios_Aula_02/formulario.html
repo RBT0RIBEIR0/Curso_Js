@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <h1>Formulário de contato</h1>
+
+   <form action="">
+    <label for="nome_input">Nome completo: </label>
+    <input type="text" name="nome_input" id="nome_input" placeholder="Nome completo">
+    <br><br>
+
+    <label for="email_input">Email: </label>
+    <input type="email_input" name="email_input" id="email_input" placeholder="E-mail">
+    <br><br>
+
+    <label for="tel_input">Telefone: </label>
+    <input type="tel_input" name="tel_input" id="tel_input" placeholder="Telefone">
+    <br><br>
+
+    <p>Sexo:</p>
+    <input type="radio" name="sexo" id="masc" value="masc">
+    <label for="masc">Masculinho</label>
+    <input type="radio" name="sexo" id="femi" value="femi">
+    <label for="femi">Feminino</label>
+    <br><br>
+
+    <label for="areadeinteresse">Área de interesse:</label>
+    <select name="regiao" id="regiao">
+        <option value="desenvolvimento">Desenvolvimento</option>
+        <option value="martech">Martech</option>
+    </select>
+    <br><br>
+
+    <p>Preferência de contato:</p>
+    <input type="checkbox" name="email" id="email" value="email">
+    <label for="email">E-mail</label>
+    <input type="checkbox" name="telefone" id="telefone" value="telefone">
+    <label for="telefone">Telefone</label>
+    <input type="checkbox" name="sms" id="sms" value="sms">
+    <label for="sms">SMS</label>
+   <br><br>
+
+   <label for="Mensagem">Mensagem:</label>
+   <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="Digite aqui a sua mensagem">
+    </textarea>
+    <br><br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
