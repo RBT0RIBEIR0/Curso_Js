@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="Teste.js"></script> -->
+    <title>Javascript</title>
+
+    <script>
+
+        //Para validar uma ativiade, por favor, comentar as demais. Ex: Rodou a atividade jantar, comentar as outras para que n seja consideradas no console. 
+
+        // Atividade Jantar
+        let valor = prompt("Digite o valor do jantar: ");
+        let taxa = valor * 0.1;
+        let valortotal = taxa + parseFloat(valor);
+        console.log("Valor total: " + valortotal);
+    
+        //Atividade Pizzaria
+        let valor = prompt("Digite o valor total: ");
+        let clientes = prompt("Quantos clientes: ");
+        let conta = parseFloat(valor) / parseInt(clientes);
+        console.log("Valor a ser pago por cada cliente: " + conta);
+    
+        //Atividade  Produto
+        let valorproduto = parseFloat(prompt("Digite o preço do produto: "));
+        let avista = valorproduto - (valorproduto * 0.1);
+        let parcelado02 = valorproduto / 2;
+        let parcelado03 = valorproduto / 3;
+        document.write("Valor à vista: " + avista);
+        document.write("<br>");
+        document.write("Valor parcelado em duas vezes: " + parcelado02);
+        document.write("<br>");
+        document.write("Valor parcelado em três vezes: : " + parcelado03.toFixed(1));
+
+        //Atividade Notas
+        let nota1 = prompt("Nota 1: ");
+        let nota2 = prompt("Nota 2: ");
+        let nota3 = prompt("Nota 3: ");
+        let nota4 = prompt("Nota 4: ");
+        let notatotal = parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3) + parseFloat(nota4);
+        let media = notatotal / 4;
+        console.log("Média total: " + media);
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
