@@ -1,0 +1,33 @@
+#container_principal{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    font-family: sans-serif;
+}
+#container_foto {
+    border-bottom: 3px solid rgb(117, 117, 245);
+    display: flex;
+}
+#foto{
+    width:250px;
+    border-radius:10px; 
+    margin: 0px 20px 20px 0px;
+}
+#nome {
+    font-size: 2em;
+    color: rgb(117, 117, 245);
+}
+#funcao{
+    font-size: 1.5em;
+    color: rgb(117, 122, 126);
+}
+h2 {
+    color: rgb(117, 117, 245);
+    font-size: 1.5em;
+}
+#direitos{
+    text-align: center;
+}
